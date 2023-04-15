@@ -1,0 +1,16 @@
+{% extends 'admin/navbar.html' %}
+
+{% block content %}
+
+<div class="content-section">
+
+  <h1>Welcome {{ user.username }}</h1>
+
+  <p>Position: {{ user.position }}</p>
+  <p>Salary: ${{ user.salary }}</p>
+
+  <hr>
+
+</div>
+
+{% endblock %}
